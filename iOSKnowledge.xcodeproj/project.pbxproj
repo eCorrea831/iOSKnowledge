@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AA625B611D14369300235E54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA625B601D14369300235E54 /* main.m */; };
+		AA625B691D143DD000235E54 /* Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = AA625B681D143DD000235E54 /* Zombie.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AA625B6C1D14451100235E54 /* Family.m in Sources */ = {isa = PBXBuildFile; fileRef = AA625B6B1D14451100235E54 /* Family.m */; };
+		AA625B6F1D14453500235E54 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = AA625B6E1D14453500235E54 /* Child.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		AA625B5D1D14369300235E54 /* iOSKnowledge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iOSKnowledge; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA625B601D14369300235E54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA625B671D143DD000235E54 /* Zombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zombie.h; sourceTree = "<group>"; };
+		AA625B681D143DD000235E54 /* Zombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zombie.m; sourceTree = "<group>"; };
+		AA625B6A1D14451100235E54 /* Family.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Family.h; sourceTree = "<group>"; };
+		AA625B6B1D14451100235E54 /* Family.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Family.m; sourceTree = "<group>"; };
+		AA625B6D1D14453500235E54 /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		AA625B6E1D14453500235E54 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				AA625B601D14369300235E54 /* main.m */,
+				AA625B671D143DD000235E54 /* Zombie.h */,
+				AA625B681D143DD000235E54 /* Zombie.m */,
+				AA625B6A1D14451100235E54 /* Family.h */,
+				AA625B6B1D14451100235E54 /* Family.m */,
+				AA625B6D1D14453500235E54 /* Child.h */,
+				AA625B6E1D14453500235E54 /* Child.m */,
 			);
 			path = iOSKnowledge;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA625B611D14369300235E54 /* main.m in Sources */,
+				AA625B6C1D14451100235E54 /* Family.m in Sources */,
+				AA625B6F1D14453500235E54 /* Child.m in Sources */,
+				AA625B691D143DD000235E54 /* Zombie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

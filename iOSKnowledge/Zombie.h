@@ -1,5 +1,5 @@
 //
-//  Child.h
+//  Zombie.h
 //  iOSKnowledge
 //
 //  Created by Aditya Narayan on 6/17/16.
@@ -7,11 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Family.h"
 
-@interface Child : NSObject
+@interface Zombie : NSObject
 
-@property (nonatomic, retain) Family * family;
-
+- (NSArray *)createArray;
 
 @end

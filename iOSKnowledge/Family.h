@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Child.h"
 
 @interface Family : NSObject
+
+@property (nonatomic, retain) Child * child;
 
 @end
