@@ -11,6 +11,9 @@
 		AA625B691D143DD000235E54 /* Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = AA625B681D143DD000235E54 /* Zombie.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AA625B6C1D14451100235E54 /* Family.m in Sources */ = {isa = PBXBuildFile; fileRef = AA625B6B1D14451100235E54 /* Family.m */; };
 		AA625B6F1D14453500235E54 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = AA625B6E1D14453500235E54 /* Child.m */; };
+		AAF5D4BD1D181C3E00AD92F7 /* LinkerError.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF5D4BC1D181C3E00AD92F7 /* LinkerError.m */; };
+		AAF5D4CC1D18260A00AD92F7 /* MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF5D4CB1D18260A00AD92F7 /* MethodSwizzle.m */; };
+		AAF5D4CF1D18394B00AD92F7 /* MONThang.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF5D4CE1D18394B00AD92F7 /* MONThang.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,12 @@
 		AA625B6B1D14451100235E54 /* Family.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Family.m; sourceTree = "<group>"; };
 		AA625B6D1D14453500235E54 /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
 		AA625B6E1D14453500235E54 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		AAF5D4BB1D181C3E00AD92F7 /* LinkerError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkerError.h; sourceTree = "<group>"; };
+		AAF5D4BC1D181C3E00AD92F7 /* LinkerError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkerError.m; sourceTree = "<group>"; };
+		AAF5D4CA1D18260A00AD92F7 /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodSwizzle.h; path = ../MethodSwizzle.h; sourceTree = "<group>"; };
+		AAF5D4CB1D18260A00AD92F7 /* MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodSwizzle.m; path = ../MethodSwizzle.m; sourceTree = "<group>"; };
+		AAF5D4CD1D18394B00AD92F7 /* MONThang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MONThang.h; path = ../MONThang.h; sourceTree = "<group>"; };
+		AAF5D4CE1D18394B00AD92F7 /* MONThang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MONThang.m; path = ../MONThang.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 			isa = PBXGroup;
 			children = (
 				AA625B601D14369300235E54 /* main.m */,
+				AAF5D4CD1D18394B00AD92F7 /* MONThang.h */,
+				AAF5D4CE1D18394B00AD92F7 /* MONThang.m */,
+				AAF5D4CA1D18260A00AD92F7 /* MethodSwizzle.h */,
+				AAF5D4CB1D18260A00AD92F7 /* MethodSwizzle.m */,
+				AAF5D4BB1D181C3E00AD92F7 /* LinkerError.h */,
+				AAF5D4BC1D181C3E00AD92F7 /* LinkerError.m */,
 				AA625B671D143DD000235E54 /* Zombie.h */,
 				AA625B681D143DD000235E54 /* Zombie.m */,
 				AA625B6A1D14451100235E54 /* Family.h */,
@@ -133,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF5D4BD1D181C3E00AD92F7 /* LinkerError.m in Sources */,
+				AAF5D4CC1D18260A00AD92F7 /* MethodSwizzle.m in Sources */,
 				AA625B611D14369300235E54 /* main.m in Sources */,
 				AA625B6C1D14451100235E54 /* Family.m in Sources */,
 				AA625B6F1D14453500235E54 /* Child.m in Sources */,
+				AAF5D4CF1D18394B00AD92F7 /* MONThang.m in Sources */,
 				AA625B691D143DD000235E54 /* Zombie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +275,7 @@
 				AA625B661D14369300235E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
